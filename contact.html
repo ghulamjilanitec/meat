@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Meat Street & Spice — Karachi Premium Poultry Delivery</title>
+    <meta name="description" content="Get in touch with Meat Street & Spice. Place orders, ask questions, or reach us via WhatsApp, phone, or email. Premium fresh poultry delivered across Karachi.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════════
+         NAVBAR
+    ═══════════════════════════════════════ -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Meat Street <span class="highlight">&amp; Spice</span></span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="index.html#menu">Our Menu</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+            <a href="index.html#menu" class="btn btn-primary nav-cta"><i class="fas fa-shopping-bag"></i> Shop Now</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- ═══════════════════════════════════════
+         1. PAGE HERO
+    ═══════════════════════════════════════ -->
+    <section class="page-hero" id="page-top">
+        <div class="page-hero-overlay"></div>
+        <div class="container page-hero-content">
+            <div class="breadcrumb reveal-ready">
+                <a href="index.html">Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>Contact Us</span>
+            </div>
+            <h1 class="page-hero-title reveal-ready">Let's Get<br>In Touch.</h1>
+            <p class="page-hero-subtitle reveal-ready">
+                Have a question, a custom order request, or just want to say hello?
+                We're here for you — reach out anytime and we'll respond fast.
+            </p>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         2. CONTACT INFO CARDS
+    ═══════════════════════════════════════ -->
+    <section class="section bg-light" id="contact-info">
+        <div class="container">
+            <div class="section-header text-center" style="margin-bottom:55px;">
+                <h4 class="section-subtitle">Reach Us</h4>
+                <h2 class="section-title">Multiple Ways to Connect</h2>
+            </div>
+            <div class="contact-cards-grid">
+                <div class="contact-card reveal-ready">
+                    <div class="contact-card-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Call Us</h3>
+                    <p>Speak directly with our team.<br>We're available 7 days a week.</p>
+                    <br>
+                    <a href="tel:+923001234567">+92 300 1234567</a>
+                </div>
+                <div class="contact-card reveal-ready">
+                    <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email Us</h3>
+                    <p>Send us your order details or queries and we'll reply within a few hours.</p>
+                    <br>
+                    <a href="mailto:orders@meatstreetnspice.com">orders@meatstreetnspice.com</a>
+                </div>
+                <div class="contact-card reveal-ready">
+                    <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Our Location</h3>
+                    <p>Based in Karachi, Pakistan.<br>Delivering across the city.</p>
+                    <br>
+                    <a href="https://maps.google.com" target="_blank" rel="noopener">View on Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         3. WHATSAPP CTA BANNER
+    ═══════════════════════════════════════ -->
+    <section class="whatsapp-cta-section" id="whatsapp-cta">
+        <div class="container">
+            <div class="whatsapp-cta-content">
+                <div class="whatsapp-cta-text reveal-ready">
+                    <h2>Fastest Way to Order?<br>Chat on WhatsApp.</h2>
+                    <p>Send us your order in seconds. Our team confirms and processes it immediately.</p>
+                </div>
+                <a href="https://wa.me/923001234567?text=Hello%20Meat%20Street%20%26%20Spice%2C%20I%20would%20like%20to%20place%20an%20order."
+                   class="whatsapp-cta-btn reveal-ready"
+                   target="_blank" rel="noopener"
+                   id="whatsapp-main-btn">
+                    <i class="fab fa-whatsapp"></i>
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         4. CONTACT FORM + SIDEBAR
+    ═══════════════════════════════════════ -->
+    <section class="section" id="contact-form-section">
+        <div class="container">
+            <div class="contact-form-grid">
+
+                <!-- FORM -->
+                <div class="contact-form-wrapper reveal-ready">
+                    <h2>Send Us a Message</h2>
+                    <p class="form-intro">Fill in the form below and we'll get back to you within a few hours.</p>
+
+                    <form id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" class="form-control" placeholder="e.g. Ahmed" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" class="form-control" placeholder="e.g. Khan" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="+92 300 0000000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="e.g. Custom order request, Delivery inquiry…" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="6" placeholder="Tell us about your order, quantities, preferred delivery time, or any special requests…" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit-btn" id="submit-contact-btn">
+                            <i class="fas fa-paper-plane"></i>&nbsp; Send Message
+                        </button>
+                    </form>
+
+                    <!-- Success State -->
+                    <div class="form-success" id="formSuccess">
+                        <div class="form-success-icon"><i class="fas fa-check"></i></div>
+                        <h3>Message Sent!</h3>
+                        <p>Thank you for reaching out. We'll get back to you within a few hours. In the meantime, you can also reach us directly on WhatsApp.</p>
+                    </div>
+                </div>
+
+                <!-- SIDEBAR -->
+                <aside class="contact-sidebar reveal-ready">
+
+                    <!-- Business Hours -->
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-clock"></i> Business Hours</h3>
+                        <ul class="hours-list">
+                            <li><span class="day">Monday</span><span class="time">9:00 AM – 9:00 PM</span></li>
+                            <li><span class="day">Tuesday</span><span class="time">9:00 AM – 9:00 PM</span></li>
+                            <li><span class="day">Wednesday</span><span class="time">9:00 AM – 9:00 PM</span></li>
+                            <li><span class="day">Thursday</span><span class="time">9:00 AM – 9:00 PM</span></li>
+                            <li><span class="day">Friday</span><span class="time">9:00 AM – 8:00 PM</span></li>
+                            <li><span class="day">Saturday</span><span class="time">10:00 AM – 9:00 PM</span></li>
+                            <li><span class="day">Sunday</span><span class="time">10:00 AM – 7:00 PM</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Order Info -->
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-info-circle"></i> Order Information</h3>
+                        <ul class="hours-list">
+                            <li><span class="day">Min. Order</span><span class="time">1 KG</span></li>
+                            <li><span class="day">Delivery Time</span><span class="time">2–4 Hours</span></li>
+                            <li><span class="day">Service Area</span><span class="time">Karachi</span></li>
+                            <li><span class="day">Payment</span><span class="time">COD / Bank / JazzCash</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- WhatsApp Button -->
+                    <a href="https://wa.me/923001234567?text=Hello%20Meat%20Street%20%26%20Spice%2C%20I%20would%20like%20to%20place%20an%20order."
+                       class="whatsapp-sidebar-btn"
+                       target="_blank" rel="noopener"
+                       id="whatsapp-sidebar-btn">
+                        <i class="fab fa-whatsapp"></i>
+                        Order via WhatsApp
+                    </a>
+
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         5. TRUST STRIP
+    ═══════════════════════════════════════ -->
+    <section class="features section bg-light" id="trust-strip">
+        <div class="container">
+            <div class="section-header text-center" style="margin-bottom:55px;">
+                <h4 class="section-subtitle">Why Order From Us</h4>
+                <h2 class="section-title">The Meat Street &amp; Spice Promise</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal-ready">
+                    <div class="feature-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>100% Halal Certified</h3>
+                    <p>Every order strictly adheres to Halal guidelines — your faith and peace of mind are our top priority.</p>
+                </div>
+                <div class="feature-card reveal-ready">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Freshness Guaranteed</h3>
+                    <p>Double-washed and delivered in temperature-controlled packaging with ice packs. Fresh, always.</p>
+                </div>
+                <div class="feature-card reveal-ready">
+                    <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Responsive Support</h3>
+                    <p>Our team is available 7 days a week. Reach us via WhatsApp, call, or email — we respond fast.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         6. FAQ ACCORDION
+    ═══════════════════════════════════════ -->
+    <section class="section" id="faq">
+        <div class="container">
+            <div class="section-header text-center" style="margin-bottom:60px;">
+                <h4 class="section-subtitle">Got Questions?</h4>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-container">
+
+                <div class="faq-item" id="faq-1">
+                    <div class="faq-question" data-faq="faq-1" role="button" tabindex="0" aria-expanded="false">
+                        <h3>What areas in Karachi do you deliver to?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            We currently deliver across most of Karachi, including DHA, Clifton, Gulshan-e-Iqbal, North Nazimabad, PECHS, Saddar, Bahadurabad, and surrounding areas. If you're unsure whether we cover your area, simply drop us a WhatsApp message and we'll confirm instantly.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-2">
+                    <div class="faq-question" data-faq="faq-2" role="button" tabindex="0" aria-expanded="false">
+                        <h3>How long does delivery take after placing an order?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Standard delivery takes 2–4 hours after order confirmation. For same-day delivery, orders must be placed before 6:00 PM. We also offer scheduled delivery slots — you can specify your preferred time when placing your order.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-3">
+                    <div class="faq-question" data-faq="faq-3" role="button" tabindex="0" aria-expanded="false">
+                        <h3>What payment methods do you accept?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            We accept Cash on Delivery (COD), Bank Transfer, JazzCash, EasyPaisa, NayaPay, and major Credit/Debit Cards. All payment methods are secure and verified before dispatch.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-4">
+                    <div class="faq-question" data-faq="faq-4" role="button" tabindex="0" aria-expanded="false">
+                        <h3>Is there a minimum order quantity?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Yes, our minimum order is 1 KG per product. However, you can mix and match different cuts and marinades in a single order — for example, 0.5 KG boneless cubes and 0.5 KG tikka marination. This gives you maximum flexibility.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-5">
+                    <div class="faq-question" data-faq="faq-5" role="button" tabindex="0" aria-expanded="false">
+                        <h3>Can I request a custom cut or marination?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Absolutely! We specialize in custom cuts tailored to your needs. Whether it's a specific size, bone-in vs boneless preference, or a custom spice blend, simply mention it in your order note or WhatsApp us. We love accommodating special requests.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-6">
+                    <div class="faq-question" data-faq="faq-6" role="button" tabindex="0" aria-expanded="false">
+                        <h3>How do you ensure freshness during delivery?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Every order is sealed in food-grade, airtight trays immediately after cutting. These are then packed into insulated thermal bags alongside frozen ice packs — maintaining a safe temperature throughout the entire delivery journey to your doorstep.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         7. CTA
+    ═══════════════════════════════════════ -->
+    <section class="cta-section section" id="contact-cta">
+        <div class="container text-center">
+            <h4 class="section-subtitle">Ready to Order?</h4>
+            <h2 class="section-title cta-title">Premium Poultry, Your Doorstep.</h2>
+            <p class="cta-text">Browse our full menu — from daily cuts to gourmet marinades — and place your order in under 2 minutes.</p>
+            <div class="cta-buttons">
+                <a href="index.html#menu" class="btn btn-primary btn-lg" id="cta-menu-btn">
+                    <i class="fas fa-shopping-bag"></i> Explore Menu
+                </a>
+                <a href="https://wa.me/923001234567" class="btn-outline-white btn-lg" target="_blank" rel="noopener" id="cta-wa-btn">
+                    <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════════ -->
+    <footer class="footer" id="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo text-white">
+                    <span class="logo-text">Meat Street <span class="highlight">&amp; Spice</span></span>
+                </a>
+                <p class="mt-2">Premium Fresh Poultry &amp; Gourmet Marinations delivered to your doorstep. Clean, fresh, and ready to cook.</p>
+                <div class="social-links mt-3">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="index.html#menu">Our Menu</a></li>
+                    <li><a href="index.html#guidelines">Delivery Guidelines</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> +92 300 1234567</li>
+                    <li><i class="fas fa-envelope"></i> orders@meatstreetnspice.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p>&copy; 2026 Meat Street &amp; Spice. All Rights Reserved. Designed with precision.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // ─── Scroll Reveal ───────────────────────────────────────
+        const revealEls = document.querySelectorAll('.reveal-ready');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        revealEls.forEach(el => revealObserver.observe(el));
+
+        // ─── FAQ Accordion ───────────────────────────────────────
+        document.querySelectorAll('.faq-question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.closest('.faq-item');
+                const isActive = item.classList.contains('active');
+
+                // Close all
+                document.querySelectorAll('.faq-item').forEach(el => {
+                    el.classList.remove('active');
+                    el.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                });
+
+                // Open clicked (unless it was already open)
+                if (!isActive) {
+                    item.classList.add('active');
+                    btn.setAttribute('aria-expanded', 'true');
+                }
+            });
+
+            // Keyboard support
+            btn.addEventListener('keydown', e => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    btn.click();
+                }
+            });
+        });
+
+        // ─── Contact Form Submit ─────────────────────────────────
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const form = this;
+            const btn  = document.getElementById('submit-contact-btn');
+            const success = document.getElementById('formSuccess');
+
+            // Brief loading state
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>&nbsp; Sending…';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                form.style.display = 'none';
+                success.style.display = 'block';
+            }, 1200);
+        });
+    </script>
+</body>
+</html>
